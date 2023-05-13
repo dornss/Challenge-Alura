@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge ONE - Decodificador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c70700e259.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="assets/logo.png" alt="logo-alura">
+    </header>
+    <main>
+        <section class="container-texto">
+            <textarea class="text-area" placeholder="Digite seu texto"></textarea>
+            <div class="instructions">
+                <i class="fa-solid fa-circle-exclamation" style="color: #5c5c5c;"></i>
+                <p>Apenas letras minúsculas e sem acento</p>
+            </div>
+            <div class="btn-div">
+                <button class="crypt-btn">Criptografar</button>
+                <button class="decrypt-btn">Descriptografar</button>
+            </div>
+        </section>
+        <section class="mensagem-container">
+            <div class="bg-container">
+                <textarea class="mensagem">
+                </textarea>
+                <div class="container-msg">
+                    <img src="/assets/boneco.svg" alt="">
+                    <p class="empty-message1">Nenhuma mensagem encontrada   </p>
+                    <p class="empty-message2">Digite um texto que você quer</p>
+                    <p class="empty-message2">criptografar ou descriptografar</p>
+                </div>
+                <button class="copy-btn">Copiar</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
